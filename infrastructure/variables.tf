@@ -1,3 +1,4 @@
+# Este script contem todas as variaveis usadas
 variable "base_bucket_name" {
   default = "datalake-gloria-igti-edc-desafio"
 }
