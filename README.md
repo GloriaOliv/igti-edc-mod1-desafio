@@ -2,7 +2,7 @@
 ## Bootcamp: Engenheiro de Dados Cloud
 
 ## Módulo: 1
-## Tema: Fundamentos em Arquitetura de Dados e Soluções em Nuvem
+### Tema: Fundamentos em Arquitetura de Dados e Soluções em Nuvem
 
 ### Desafio
 
