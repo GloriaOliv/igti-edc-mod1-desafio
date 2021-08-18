@@ -1,3 +1,2 @@
 *.CSV
 .DS_Store
-.terraform.tfstate
