@@ -4,7 +4,7 @@
 ## Módulo: 1 - Fundamentos em Arquitetura de Dados e Soluções em Nuvem
 
 ###### Cloud utilizada: Amazon AWS 
-###### Arquivo utilizado: 
+###### Link do arquivo utilizado: 
 <a href="https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/censo-escolar">Censo Escolar 2020</a>
 
 ### Desafio:
