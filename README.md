@@ -1,10 +1,12 @@
 # IGTI
 ## Bootcamp: Engenheiro de Dados Cloud
 
-## Módulo: 1
-### Tema: Fundamentos em Arquitetura de Dados e Soluções em Nuvem
+## Módulo: 1 - Fundamentos em Arquitetura de Dados e Soluções em Nuvem
 
-### Desafio
+###### Cloud utilizada: Amazon AWS 
+
+
+### Desafio:
 
 ###### ✓ Arquiteturas de Dados em Nuvem;
 ###### ✓ Implementação de Data Lake em solução Cloud de Storage;
