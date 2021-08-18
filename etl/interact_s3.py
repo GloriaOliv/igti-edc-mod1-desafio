@@ -6,6 +6,9 @@ import pandas as pd
 # Criar um cliente para interagir com o AWS S3
 s3_client = boto3.client('s3')
 
+# Todo o codigo restante esta comentado porque ja foi
+# realizada a ingestao dos dados no S3
+
 #s3_client.upload_file("raw-data/matricula_co.CSV",
 #                      "datalake-gloria-igti-edc-desafio",
 #					   "raw-data/matricula_co.CSV")
