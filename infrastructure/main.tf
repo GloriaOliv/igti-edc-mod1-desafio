@@ -24,8 +24,8 @@ resource "aws_s3_bucket" "datalake" {
 resource "aws_s3_bucket_object" "codigo_spark" {
 
   bucket = aws_s3_bucket.datalake.id
-  key    = "emr-code/pyspark/transform_from_tf.py"
+  key    = "emr-code/pyspark/job_spark_from_tf.py"
   acl    = "private"
-  source = "../etl/transform.py"
+  source = "../etl/job_spark.py"
   etag   = filemd5("../etl/job_spark.py")
 }
