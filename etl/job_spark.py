@@ -28,5 +28,5 @@ censo = (
     .mode("overwrite")
     .format("parquet")
     .partitionBy("NU_ANO_CENSO")
-    .save("s3://datalake-gloria-igti-edc-desafio/staging-zone/")
+    .save("datalake-gloria-igti-edc-desafio-producao-556116348126/staging-zone/")
 )
