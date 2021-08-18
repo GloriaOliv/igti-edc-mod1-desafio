@@ -11,6 +11,6 @@ variable "ambiente" {
   default = "producao"
 }
 
-variable "number_account"{
+variable "nu_conta"{
   default = "556116348126"
 }
