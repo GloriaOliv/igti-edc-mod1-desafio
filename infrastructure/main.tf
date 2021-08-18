@@ -39,12 +39,3 @@ resource "aws_s3_bucket_object" "codigo_glue" {
   source = "../etl/glue_job_censo.py"
   etag   = filemd5("../etl/glue_job_censo.py")
 }
-
-resource "aws_s3_bucket_object" "codigo_glue" {
-
-  bucket = aws_s3_bucket.datalake.id
-  key    = "glue-scripts/pyspark/glue_job_censo_from_tf.py"
-  acl    = "private"
-  source = "../etl/glue_job_censo.py"
-  etag   = filemd5("../etl/glue_job_censo.py")
-}
