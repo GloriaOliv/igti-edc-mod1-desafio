@@ -12,7 +12,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "datalake-gloria-igti-edc-desafio-producao-556116348126"
+    bucket = "datalake-gloria-igti-edc-desafio"
     key    = "state/terraform/terraform.tfstate"
     region = "us-east-2"
   }
