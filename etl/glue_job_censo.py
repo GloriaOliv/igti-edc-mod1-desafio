@@ -46,5 +46,5 @@ censo = (
     .mode("overwrite")
     .format("parquet")
     .partitionBy("NU_ANO_CENSO")
-    .save("s3://datalake-gloria-igti-edc-desafio-producao-556116348126/staging-zone/censo-glue/")
+    .save("s3://datalake-gloria-igti-edc-desafio-producao-556116348126/staging-zone/censo-glue/NU_ANO_CENSO=2020/")
 )
