@@ -8,6 +8,6 @@ resource "aws_glue_crawler" "censo" {
   role          = aws_iam_role.glue_role.arn
 
   s3_target {
-    path = "s3://${aws_s3_bucket.datalake.id}/staging-zone/censo/"
+    path = "s3://${aws_s3_bucket.datalake.id}/staging-zone/censo-glue/NU_ANO_CENSO=2020/"
   }
 }
