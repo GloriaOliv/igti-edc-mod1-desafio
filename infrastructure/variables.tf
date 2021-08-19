@@ -18,3 +18,7 @@ variable "nu_conta"{
 variable "lambda_function_name" {
   default = "IGTIexecutaEMRaovivo"
 }
+
+variable "key_pair_name" {
+  default = "gloria-igti-teste"
+}
