@@ -34,7 +34,7 @@ def handler(event, context):
                     'Ec2KeyName': 'gloria-igti-teste',
                     'KeepJobFlowAliveWhenNoSteps': True,
                     'TerminationProtected': False,
-                    'Ec2SubnetId': 'subnet-1df20360'
+                    'Ec2SubnetId': 'subnet-31a6654c'
                 },
 
                 Applications=[
@@ -89,10 +89,8 @@ def handler(event, context):
                     'HadoopJarStep': {
                         'Jar': 'command-runner.jar',
                         'Args': ['spark-submit',
-                                 '--master',
-                                 'yarn',
-                                 '--deploy-mode',
-                                 'cluster',
+                                 '--master', 'yarn',
+                                 '--deploy-mode', 'cluster',
                                  's3://datalake-gloria-igti-edc-desafio-producao-556116348126/emr-code/pyspark/job_spark_from_tf.py'
                                  ]
                     }
