@@ -3,7 +3,7 @@ resource "aws_glue_catalog_database" "censo_glue" {
 }
 
 resource "aws_glue_crawler" "censo_glue" {
-  database_name = aws_glue_catalog_database.censo.name
+  database_name = aws_glue_catalog_database.censo_glue.name
   name          = "censo_crawler_glue"
   role          = aws_iam_role.glue_role.arn
 
@@ -17,7 +17,7 @@ resource "aws_glue_catalog_database" "censo_emr" {
 }
 
 resource "aws_glue_crawler" "censo_emr" {
-  database_name = aws_glue_catalog_database.censo.name
+  database_name = aws_glue_catalog_database.censo_emr.name
   name          = "censo_crawler_emr"
   role          = aws_iam_role.glue_role.arn
 
