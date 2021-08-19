@@ -14,3 +14,7 @@ variable "ambiente" {
 variable "nu_conta"{
   default = "556116348126"
 }
+
+variable "lambda_function_name" {
+  default = "IGTIexecutaEMRaovivo"
+}
