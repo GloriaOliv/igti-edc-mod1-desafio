@@ -1,5 +1,5 @@
 resource "aws_glue_catalog_database" "censo_glue" {
-    name = "db_censo"
+    name = "db_censo_glue"
 }
 
 resource "aws_glue_crawler" "censo_glue" {
@@ -13,7 +13,7 @@ resource "aws_glue_crawler" "censo_glue" {
 }
 
 resource "aws_glue_catalog_database" "censo_emr" {
-    name = "db_censo"
+    name = "db_censo_emr"
 }
 
 resource "aws_glue_crawler" "censo_emr" {
