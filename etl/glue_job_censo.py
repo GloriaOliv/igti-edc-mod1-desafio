@@ -38,7 +38,7 @@ censo = (
 
 )
 
-# Criando arquivos parquet. 
+# Criando arquivos parquet no diretorio. 
 
 (
     censo

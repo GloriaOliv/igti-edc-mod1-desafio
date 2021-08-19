@@ -1,5 +1,5 @@
-resource "aws_glue_job" "censo_glue_job" {
-  name     = "censo_glue_job"
+resource "aws_glue_job" "glue_job_censo" {
+  name     = "glue_job_censo"
   role_arn = aws_iam_role.glue_role.arn
 
   command {
